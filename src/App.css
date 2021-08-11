@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-color: #f4f5f7;
+  height: calc(100vh - 0px);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.float-right {
+  position: absolute;
+  right: 30px;
+}
+.nav-link.active {
+  border-radius: 5px;
+  background-color: #ae29ec;
+  color: white !important;
+}
+
+.container {
+  height: calc(100% - 82px);
+}
+
+.login-card {
+  min-width: 500px;
+}
+.login-form{
+  margin-top: 40px;
+}
+.text-left {
+  text-align: left;
+}
